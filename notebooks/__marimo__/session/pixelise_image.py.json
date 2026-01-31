@@ -1,0 +1,164 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.18.4"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "847d62616ec4113a4ec0e2e0958ac79b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "c96e06ae1f32a2588d44f437fc4b8ce1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"load-image\">Load image</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "e640e70b14efc0eac16f5ae12d27455d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<img src='./@file/1052451-513943-PVzPsNrt.png' style='width: 300px' />"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:984: RuntimeWarning: divide by zero encountered in matmul\n  return rgb @ coeffs\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:984: RuntimeWarning: overflow encountered in matmul\n  return rgb @ coeffs\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:984: RuntimeWarning: invalid value encountered in matmul\n  return rgb @ coeffs\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "77f94df2f0108b9c2d6b44d6958861c6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "bool [False  True]\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "8573dfab51cda00dd82dcd26286fb4cd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"preprocessing\">Preprocessing</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "c113ea3fee599b74993a5ab8e8183d48",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "8512db715664264e681af135b13d5efa",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"pixelate-it\">Pixelate it!</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "f245069bdaada3f9caee1a67b10ccff5",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "838e1e0bf8d64a9ecff1c2956e5ab471",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "06fc43b03ba259e0945d4ad4d5cde83c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<img src='./@file/637119-513943-gDWLMayi.png' style='width: 400px' />"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: overflow encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: invalid value encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "tHDl",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "zbpY",
+      "code_hash": "032a6d1f181a3a84254846b6e543a01b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[\"text/html:<div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><figure style='display: flex; flex-direction: column;'><img src='./@file/634661-513943-Q2LOgIwo.png' /><figcaption style='color: var(--muted-foreground); text-align: center; margin-top: 0.5rem;'>n_c:4, size:4</figcaption></figure><figure style='display: flex; flex-direction: column;'><img src='./@file/631486-513943-mER085K0.png' /><figcaption style='color: var(--muted-foreground); text-align: center; margin-top: 0.5rem;'>n_c:4, size:8</figcaption></figure><figure style='display: flex; flex-direction: column;'><img src='./@file/630164-513943-DnCcdGYu.png' /><figcaption style='color: var(--muted-foreground); text-align: center; margin-top: 0.5rem;'>n_c:4, size:16</figcaption></figure></div>\", \"text/html:<div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><figure style='display: flex; flex-direction: column;'><img src='./@file/640391-513943-5IrlRLDR.png' /><figcaption style='color: var(--muted-foreground); text-align: center; margin-top: 0.5rem;'>n_c:8, size:4</figcaption></figure><figure style='display: flex; flex-direction: column;'><img src='./@file/634241-513943-tuUgoexb.png' /><figcaption style='color: var(--muted-foreground); text-align: center; margin-top: 0.5rem;'>n_c:8, size:8</figcaption></figure><figure style='display: flex; flex-direction: column;'><img src='./@file/631216-513943-jPd5nfNx.png' /><figcaption style='color: var(--muted-foreground); text-align: center; margin-top: 0.5rem;'>n_c:8, size:16</figcaption></figure></div>\", \"text/html:<div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><figure style='display: flex; flex-direction: column;'><img src='./@file/646651-513943-tqVjTzuJ.png' /><figcaption style='color: var(--muted-foreground); text-align: center; margin-top: 0.5rem;'>n_c:16, size:4</figcaption></figure><figure style='display: flex; flex-direction: column;'><img src='./@file/637119-513943-5Ykh0IW0.png' /><figcaption style='color: var(--muted-foreground); text-align: center; margin-top: 0.5rem;'>n_c:16, size:8</figcaption></figure><figure style='display: flex; flex-direction: column;'><img src='./@file/632173-513943-HS7hqz1n.png' /><figcaption style='color: var(--muted-foreground); text-align: center; margin-top: 0.5rem;'>n_c:16, size:16</figcaption></figure></div>\"]"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: overflow encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: invalid value encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: overflow encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: invalid value encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: overflow encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: invalid value encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: overflow encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: invalid value encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: overflow encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: invalid value encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: overflow encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: invalid value encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: overflow encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: invalid value encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: overflow encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: invalid value encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: overflow encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: invalid value encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    }
+  ]
+}

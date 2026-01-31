@@ -1,3 +1,5 @@
 decklists/*
 images_raw/*
 image_uri_lists/*
+test
+__pycache__

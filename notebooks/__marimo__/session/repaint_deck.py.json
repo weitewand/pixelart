@@ -1,0 +1,185 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.18.4"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "da5c6ae7ebd4d712cf349459eb3fc0c6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "9ed81afe0b6fc136429adc2a477e025b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='MJUe-0' random-id='b6a6ea7c-8755-7b40-1e0d-3dd360a72f74'><marimo-radio data-initial-value='&quot;test.txt&quot;' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Select a list to repaint&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;kiblerhugs.txt&quot;,&quot;test.txt&quot;]' data-inline='false' data-disabled='false'></marimo-radio></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "8ae008a6746e01631e9a7175e401fa04",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"careful-the-parquet-file-with-the-image-urls-has-to-be-deleted-if-a-decklist-is-changed-without-changing-its-name\">Careful: The parquet-file with the image urls has to be deleted if a decklist is changed without changing its name.</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "be8ed293af9d8f051bc28167238603b1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[1040, 745, 3]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "AMSd",
+      "code_hash": "3850605ab7dcb1b2c492b5d56e6d60c4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[1040, 745, 3]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nrMY",
+      "code_hash": "ea81f03a2eff703a6e4a28a08d6e863e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: center;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/876914-587464-ZEvg0bEa.png' style='width: 400px' /><marimo-ui-element object-id='nrMY-0' random-id='c010f5bf-a540-1bbd-a112-8f58e77cd668'><marimo-dropdown data-initial-value='[&quot;2015_normal_1.npy&quot;]' data-label='null' data-options='[&quot;2015_normal_1.npy&quot;,&quot;2015_rooms_1.npy&quot;,&quot;Filename.npy&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: center;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/801217-587464-AOjM3IEJ.png' style='width: 400px' /><marimo-ui-element object-id='nrMY-1' random-id='e37303c9-d3b8-c467-6f20-8da84e19ea12'><marimo-dropdown data-initial-value='[&quot;2015_normal_1.npy&quot;]' data-label='null' data-options='[&quot;2015_normal_1.npy&quot;,&quot;2015_rooms_1.npy&quot;,&quot;Filename.npy&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: center;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/1161075-587464-YmzKZCJ0.png' style='width: 400px' /><marimo-ui-element object-id='nrMY-2' random-id='f2d5bb11-26b1-feeb-b72f-2c2f3ccd4640'><marimo-dropdown data-initial-value='[&quot;2015_normal_1.npy&quot;]' data-label='null' data-options='[&quot;2015_normal_1.npy&quot;,&quot;2015_rooms_1.npy&quot;,&quot;Filename.npy&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element></div></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: center;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/1161251-587464-3UIoepT9.png' style='width: 400px' /><marimo-ui-element object-id='nrMY-3' random-id='9633ab51-5268-65fe-a953-2b9b7f7cbda6'><marimo-dropdown data-initial-value='[&quot;2015_normal_1.npy&quot;]' data-label='null' data-options='[&quot;2015_normal_1.npy&quot;,&quot;2015_rooms_1.npy&quot;,&quot;Filename.npy&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: center;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/859888-587464-LP9qryJB.png' style='width: 400px' /><marimo-ui-element object-id='nrMY-4' random-id='fbbd10f2-f763-d0b7-1749-fda93da3bf4e'><marimo-dropdown data-initial-value='[&quot;2015_normal_1.npy&quot;]' data-label='null' data-options='[&quot;2015_normal_1.npy&quot;,&quot;2015_rooms_1.npy&quot;,&quot;Filename.npy&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: center;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/1254830-587464-Ej73gN5z.png' style='width: 400px' /><marimo-ui-element object-id='nrMY-5' random-id='53f0dcf4-af7f-180a-97cc-2633d42e9218'><marimo-dropdown data-initial-value='[&quot;2015_normal_1.npy&quot;]' data-label='null' data-options='[&quot;2015_normal_1.npy&quot;,&quot;2015_rooms_1.npy&quot;,&quot;Filename.npy&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element></div></div></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MTjx",
+      "code_hash": "00d1eb89da6da43355a9136da69e2390",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BdYs",
+      "code_hash": "7152599e86a196b7025f6ebaaa656208",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/876914-587464-z91h0ruP.png' style='width: 400px' /></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/801217-587464-k8YkkU5T.png' style='width: 400px' /></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/1161075-587464-1PwC0Nii.png' style='width: 400px' /></div></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/1161251-587464-gc9eKgrJ.png' style='width: 400px' /></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/859888-587464-2fTPOCI8.png' style='width: 400px' /></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/1254830-587464-fUKigsfB.png' style='width: 400px' /></div></div></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "kqpX",
+      "code_hash": "b53345bc5cf6e8447b783d5e34e0e395",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/664818-587464-8xf6zXXU.png' style='width: 400px' /></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/526955-587464-HreodPla.png' style='width: 400px' /></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/851225-587464-6GZjXL86.png' style='width: 400px' /></div></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/860066-587464-Fp8M6bdd.png' style='width: 400px' /></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/584990-587464-JyiFl0MC.png' style='width: 400px' /></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/933547-587464-pFQ7WrUX.png' style='width: 400px' /></div></div></div>"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: overflow encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: invalid value encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: overflow encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: invalid value encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: overflow encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: invalid value encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: overflow encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: invalid value encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: overflow encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: invalid value encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul\n  ret = a @ b\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul\n  current_pot = closest_dist_sq @ sample_weight\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: overflow encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:857: RuntimeWarning: invalid value encountered in matmul\n  return arr @ xyz_from_rgb.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: divide by zero encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: overflow encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:754: RuntimeWarning: invalid value encountered in matmul\n  return arr @ matrix.T.astype(arr.dtype)\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "NPoz",
+      "code_hash": "6bab4968f0607ce683be672ed38e27a3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='NPoz-0' random-id='8b44823c-81c6-68bc-321a-140ca771e719'><marimo-button data-initial-value='0' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Save cards&lt;/span&gt;&lt;/span&gt;&quot;' data-kind='&quot;neutral&quot;' data-disabled='false' data-full-width='false'></marimo-button></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "AWyx",
+      "code_hash": "8ae1cfae1e38a97c47e1ede76b954e7d",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "list index out of range",
+          "traceback": []
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/var/folders/32/vrs_dtm10z1fslr_t6vbkphw0000gn/T/marimo_4644/__marimo__cell_AWyx_.py&quot;</span>, line <span class=\"m\">1</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">pixelised_cards</span><span class=\"p\">[</span><span class=\"mi\">33</span><span class=\"p\">]</span><span class=\"o\">.</span><span class=\"n\">max</span><span class=\"p\">()</span>\n<span class=\"w\">    </span><span class=\"pm\">~~~~~~~~~~~~~~~^^^^</span>\n<span class=\"gr\">IndexError</span>: <span class=\"n\">list index out of range</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "HvBL",
+      "code_hash": "21ab4c4f65435bada054e364530a9a81",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "list index out of range",
+          "traceback": []
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/var/folders/32/vrs_dtm10z1fslr_t6vbkphw0000gn/T/marimo_4644/__marimo__cell_HvBL_.py&quot;</span>, line <span class=\"m\">3</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">iio</span><span class=\"o\">.</span><span class=\"n\">imwrite</span><span class=\"p\">(</span><span class=\"s2\">&quot;test/Jeskas_Will.png&quot;</span><span class=\"p\">,</span> <span class=\"p\">(</span><span class=\"n\">pixelised_cards</span><span class=\"p\">[</span><span class=\"mi\">34</span><span class=\"p\">]</span><span class=\"o\">*</span><span class=\"mi\">255</span><span class=\"p\">)</span><span class=\"o\">.</span><span class=\"n\">astype</span><span class=\"p\">(</span><span class=\"s2\">&quot;uint8&quot;</span><span class=\"p\">))</span>\n<span class=\"w\">                                         </span><span class=\"pm\">~~~~~~~~~~~~~~~^^^^</span>\n<span class=\"gr\">IndexError</span>: <span class=\"n\">list index out of range</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    }
+  ]
+}
