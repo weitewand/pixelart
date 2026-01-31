@@ -1,0 +1,113 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.18.4"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "65fcfa1b978a8916bc432c923e18eec1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "a25800bb52cff0024484d76ce938c4af",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"load-image\">Load Image</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "d2c173e69e5bc73fd543b1e2df9d786e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<img src='./@file/1823439-26662-gOQO3wtN.png' style='width: 800px' />"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:984: RuntimeWarning: divide by zero encountered in matmul\n  return rgb @ coeffs\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:984: RuntimeWarning: overflow encountered in matmul\n  return rgb @ coeffs\n/Users/weitewand/Code/pixelart/.venv/lib/python3.12/site-packages/skimage/color/colorconv.py:984: RuntimeWarning: invalid value encountered in matmul\n  return rgb @ coeffs\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "291c334624c6ee0901b0f4b4203c15ed",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='flex: 1'><img src='./@file/539705-26662-uDkSvWkk.png' style='width: 200px' /></div><div style='flex: 1'><marimo-ui-element object-id='bkHC-0' random-id='8e3a4dc8-b9c4-83ae-a287-bd1e3fa286d4'><marimo-vega data-initial-value='{}' data-label='null' data-spec='{&quot;config&quot;:{&quot;view&quot;:{&quot;continuousWidth&quot;:300,&quot;continuousHeight&quot;:300}},&quot;data&quot;:{&quot;url&quot;:&quot;./@file/4721-26662-qyKXrBn0.arrow&quot;,&quot;format&quot;:{&quot;type&quot;:&quot;arrow&quot;}},&quot;mark&quot;:{&quot;type&quot;:&quot;bar&quot;},&quot;encoding&quot;:{&quot;x&quot;:{&quot;field&quot;:&quot;bin_center&quot;,&quot;scale&quot;:{&quot;domain&quot;:[0,1]},&quot;title&quot;:&quot;Pixel value&quot;,&quot;type&quot;:&quot;quantitative&quot;},&quot;y&quot;:{&quot;field&quot;:&quot;count&quot;,&quot;scale&quot;:{&quot;type&quot;:&quot;log&quot;},&quot;stack&quot;:null,&quot;title&quot;:&quot;Count&quot;,&quot;type&quot;:&quot;quantitative&quot;}},&quot;height&quot;:200,&quot;width&quot;:260,&quot;&#36;schema&quot;:&quot;https://vega.github.io/schema/vega-lite/v6.1.0.json&quot;}' data-chart-selection='true' data-field-selection='true' data-embed-options='{}'></marimo-vega></marimo-ui-element></div></div><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"proposed-threshold-0443359375\">Proposed threshold: 0.443359375</h3></span><marimo-ui-element object-id='bkHC-1' random-id='4196fd35-6fca-cf50-7a6b-e5701d94f282'><marimo-slider data-initial-value='0.443359375' data-label='null' data-start='0' data-stop='1' data-step='0.01' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "d605ed586e82d20a1c1e96d26575a7f9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><img src='./@file/56796-26662-HBgZqDnT.png' style='width: 250px' /><img src='./@file/11033-26662-JSM2H3TO.png' style='width: 250px' /></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qdEa",
+      "code_hash": "71f9aa61381b9a663d67de6f22ce3619",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='qdEa-0' random-id='3fb05a45-02e8-e3ab-ee34-690096c76e65'><marimo-text data-initial-value='&quot;Filename&quot;' data-label='null' data-placeholder='&quot;&quot;' data-kind='&quot;text&quot;' data-full-width='false' data-disabled='false' data-debounce='true'></marimo-text></marimo-ui-element><marimo-ui-element object-id='qdEa-1' random-id='49deb12a-fdab-2a44-bd85-6abdf77e3813'><marimo-button data-initial-value='0' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Save mask&lt;/span&gt;&lt;/span&gt;&quot;' data-kind='&quot;neutral&quot;' data-disabled='false' data-full-width='false'></marimo-button></marimo-ui-element></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nPIq",
+      "code_hash": "a6788126c84310c9dac9d6670f1e6bbe",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Mask not saved, it already existed\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    }
+  ]
+}

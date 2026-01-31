@@ -1,0 +1,67 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.18.4"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "2e222f85df840e249f380da9419aaecc",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "cannot import name 'show_image' from 'pixelise_image' (/Users/weitewand/Code/pixelart/pixelise_image.py)",
+          "traceback": []
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/var/folders/32/vrs_dtm10z1fslr_t6vbkphw0000gn/T/marimo_17828/__marimo__cell_Hbol_.py&quot;</span>, line <span class=\"m\">7</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"kn\">from</span><span class=\"w\"> </span><span class=\"nn\">pixelise_image</span><span class=\"w\"> </span><span class=\"kn\">import</span> <span class=\"n\">show_image</span>\n<span class=\"gr\">ImportError</span>: <span class=\"n\">cannot import name &#39;show_image&#39; from &#39;pixelise_image&#39; (/Users/weitewand/Code/pixelart/pixelise_image.py)</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "a25800bb52cff0024484d76ce938c4af",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"load-image\">Load Image</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "25bb8163e5332d72ed3c0c7e5c752d65",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "uKic",
+      "code_hash": "cd386e98d6f71377ff7a349eeb8bb08a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "/Users/weitewand/Code/pixelart/pixelise_image.py\n['_', '__builtins__', '__cached__', '__doc__', '__file__', '__generated_with', '__loader__', '__name__', '__package__', '__spec__', 'app', 'marimo']\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    }
+  ]
+}
